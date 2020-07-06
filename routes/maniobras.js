@@ -13,7 +13,7 @@ app.use(fileUpload());
 
 // =======================================
 // Obtener Maniobras G E N E R A L
-// =======================================
+// =========================================
 app.get('',mdAutenticacion.verificaToken, (req, res, netx) => {
   var cargadescarga = req.query.cargadescarga || '';
   var estatus = req.query.estatus || '';
